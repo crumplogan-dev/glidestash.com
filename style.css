@@ -306,6 +306,8 @@ details.faq {
 }
 details.faq summary { cursor: pointer; font-weight: 600; }
 details.faq p { margin: 10px 0 0; color: var(--muted); }
+details.faq ul { margin: 10px 0 0; padding-left: 20px; color: var(--muted); }
+details.faq li + li { margin-top: 6px; }
 
 kbd {
   font: 14px/1 -apple-system, BlinkMacSystemFont, sans-serif;
